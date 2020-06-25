@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Dinner()
+function Dinner(props)
 {
 
     return(
 
         <div>
-            <h1>noman</h1>
-            <h1>shah</h1>
+            <h1>today we are serving {props.dishname} </h1>
+            
         </div>
     )
 }
